@@ -1,0 +1,3924 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "CATERPILLAR S62 PRO",
+      "brand": "CATERPILLAR",
+      "category": "Smartphone",
+      "sku": "23627",
+      "offers": {
+        "@type": "Offer",
+        "price": 410.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "CELULAR CON TECLA UM05 UR 2CHIP",
+      "brand": "UR",
+      "category": "Smartphone",
+      "sku": "24334",
+      "offers": {
+        "@type": "Offer",
+        "price": 1.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "CELULAR CON TECLA UM06 UN CHIP",
+      "brand": "UR",
+      "category": "Smartphone",
+      "sku": "24327",
+      "offers": {
+        "@type": "Offer",
+        "price": 11.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX GT 30PRO 256/12 CON CARG COOL",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "24938",
+      "offers": {
+        "@type": "Offer",
+        "price": 320.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT50 PRO 256/8 AZUL",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "9171",
+      "offers": {
+        "@type": "Offer",
+        "price": 135.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT50 PRO 256/8 GRIS",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "9034",
+      "offers": {
+        "@type": "Offer",
+        "price": 135.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT50 PRO 256/8 NEGRO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "9188",
+      "offers": {
+        "@type": "Offer",
+        "price": 135.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT50 PRO+256/8 NEGRO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "10665",
+      "offers": {
+        "@type": "Offer",
+        "price": 156.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT601 256/4 NEGRO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "23986",
+      "offers": {
+        "@type": "Offer",
+        "price": 102.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT601 256/4 SILVER",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "23993",
+      "offers": {
+        "@type": "Offer",
+        "price": 102.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT601 256/8 NEGRO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "24013",
+      "offers": {
+        "@type": "Offer",
+        "price": 112.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT601 256/8 SILVER",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "24006",
+      "offers": {
+        "@type": "Offer",
+        "price": 112.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT60 PRO 256/8 NEGRO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "24945",
+      "offers": {
+        "@type": "Offer",
+        "price": 155.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT60 PRO 256/8 SILVER",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "24952",
+      "offers": {
+        "@type": "Offer",
+        "price": 155.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX HOT60 PRO 256/8 ROSA",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "24969",
+      "offers": {
+        "@type": "Offer",
+        "price": 155.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX NOTE50 PRO 256/8 GRIS",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "22453",
+      "offers": {
+        "@type": "Offer",
+        "price": 235.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX SMART10 128/4 BLANCO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "22460",
+      "offers": {
+        "@type": "Offer",
+        "price": 77.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX SMART10 128/4 DORADO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "22477",
+      "offers": {
+        "@type": "Offer",
+        "price": 77.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX SMART9 128/4 DORADO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "11525",
+      "offers": {
+        "@type": "Offer",
+        "price": 68.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX SMART9 128/4 NEGRO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "11516",
+      "offers": {
+        "@type": "Offer",
+        "price": 68.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX SMART9 128/4 NEO TITANIUM",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "11501",
+      "offers": {
+        "@type": "Offer",
+        "price": 68.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX SMART9 HD 64/3 NEGRO",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "11488",
+      "offers": {
+        "@type": "Offer",
+        "price": 65.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "INFINIX SMART9 HD 64/3 NEO TITANIUM",
+      "brand": "INFINIX",
+      "category": "Smartphone",
+      "sku": "11495",
+      "offers": {
+        "@type": "Offer",
+        "price": 65.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 11 128GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "4893",
+      "offers": {
+        "@type": "Offer",
+        "price": 215.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 11 128GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "4893",
+      "offers": {
+        "@type": "Offer",
+        "price": 205.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 11 64GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "4886",
+      "offers": {
+        "@type": "Offer",
+        "price": 180.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 11 64GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "4886",
+      "offers": {
+        "@type": "Offer",
+        "price": 180.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE IIPRO 256GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5029",
+      "offers": {
+        "@type": "Offer",
+        "price": null,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 11PRO 64GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5005",
+      "offers": {
+        "@type": "Offer",
+        "price": 230.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 11PROMAX 256GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "10733",
+      "offers": {
+        "@type": "Offer",
+        "price": null,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 11PROMAX 64GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 245.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 12 128GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "11853",
+      "offers": {
+        "@type": "Offer",
+        "price": 235.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 12 128GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "11853",
+      "offers": {
+        "@type": "Offer",
+        "price": 230.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 12 64GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "11358",
+      "offers": {
+        "@type": "Offer",
+        "price": 215.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 12PRO 128GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5289",
+      "offers": {
+        "@type": "Offer",
+        "price": 295.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 12PROMAX 128GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "10825",
+      "offers": {
+        "@type": "Offer",
+        "price": 355.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB AMERICANO GRADO A+",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5234",
+      "offers": {
+        "@type": "Offer",
+        "price": 325.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB AMERICANO GRADO A-",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 290.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5234",
+      "offers": {
+        "@type": "Offer",
+        "price": 315.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13PRO 128GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5333",
+      "offers": {
+        "@type": "Offer",
+        "price": 415.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13PRO 128GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5333",
+      "offers": {
+        "@type": "Offer",
+        "price": 405.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13PRO 256GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "17763",
+      "offers": {
+        "@type": "Offer",
+        "price": 445.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13PROMAX 128GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5371",
+      "offers": {
+        "@type": "Offer",
+        "price": 465.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13PROMAX 128GB CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5371",
+      "offers": {
+        "@type": "Offer",
+        "price": 450.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 128GB AME Y CHINO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "8945",
+      "offers": {
+        "@type": "Offer",
+        "price": 375.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PRO 128GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 525.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PRO 256GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "18630",
+      "offers": {
+        "@type": "Offer",
+        "price": 565.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PROMAX 128GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5418",
+      "offers": {
+        "@type": "Offer",
+        "price": 585.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PROMAX 256GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "5630",
+      "offers": {
+        "@type": "Offer",
+        "price": 620.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15 128GB AMERICANO",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "18326",
+      "offers": {
+        "@type": "Offer",
+        "price": 505.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15 128GB SIN ACTIVAR",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "18326",
+      "offers": {
+        "@type": "Offer",
+        "price": 530.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15PRO 128GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "12652",
+      "offers": {
+        "@type": "Offer",
+        "price": 660.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15PROMAX 1TB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 850.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15PROMAX 256GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 780.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 128GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 665.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 PRO 128GB SIN ACTIVAR",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "12706",
+      "offers": {
+        "@type": "Offer",
+        "price": 825.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 PRO 256GB SIN ACTIVAR",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "12706",
+      "offers": {
+        "@type": "Offer",
+        "price": 925.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 PROMAX 256 GB SIN ACTIVAR",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "12706",
+      "offers": {
+        "@type": "Offer",
+        "price": null,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 8 PLUS 256GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "7276",
+      "offers": {
+        "@type": "Offer",
+        "price": null,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 8 PLUS 64GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "4824",
+      "offers": {
+        "@type": "Offer",
+        "price": null,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE SE 128GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 130.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE SE 64GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "",
+      "offers": {
+        "@type": "Offer",
+        "price": 110.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE XR 128GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "19798",
+      "offers": {
+        "@type": "Offer",
+        "price": null,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/OutOfStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE XR 256GB",
+      "brand": "IPHONE SWAP",
+      "category": "Smartphone",
+      "sku": "19828",
+      "offers": {
+        "@type": "Offer",
+        "price": 175.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 12 64GB NEGRO LACRAD GARAN APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "12256",
+      "offers": {
+        "@type": "Offer",
+        "price": 410.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB AZUL LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5531",
+      "offers": {
+        "@type": "Offer",
+        "price": 465.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB BLANCO LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5548",
+      "offers": {
+        "@type": "Offer",
+        "price": 465.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB NEGRO LACRADO CPO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "23948",
+      "offers": {
+        "@type": "Offer",
+        "price": 435.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB NEGRO LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5555",
+      "offers": {
+        "@type": "Offer",
+        "price": 465.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB ROSA LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5739",
+      "offers": {
+        "@type": "Offer",
+        "price": 475.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 128GB VERDE LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5746",
+      "offers": {
+        "@type": "Offer",
+        "price": 465.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13 256GB NEGRO LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "23801",
+      "offers": {
+        "@type": "Offer",
+        "price": 680.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 13PROMAX 256GB VERDE LACRADO CPO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "18425",
+      "offers": {
+        "@type": "Offer",
+        "price": 780.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 128GB BLANCO GARANTIA APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "11174",
+      "offers": {
+        "@type": "Offer",
+        "price": 535.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PRO 128GB NEGRO LACRADO CPO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "24730",
+      "offers": {
+        "@type": "Offer",
+        "price": 660.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PRO 256GB NEGRO LACRADO CPO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "24754",
+      "offers": {
+        "@type": "Offer",
+        "price": 720.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PROMAX 128GB CPO GOLD",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "23771",
+      "offers": {
+        "@type": "Offer",
+        "price": 760.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PROMAX 128GB CPO NEGRO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "23764",
+      "offers": {
+        "@type": "Offer",
+        "price": 760.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PROMAX 128GB CPO SILVER",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "23757",
+      "offers": {
+        "@type": "Offer",
+        "price": 760.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 14 PROMAX 128GB DORADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5401",
+      "offers": {
+        "@type": "Offer",
+        "price": 760.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15 128GB AZUL LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5821",
+      "offers": {
+        "@type": "Offer",
+        "price": 670.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15 128GB ROSA LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "18135",
+      "offers": {
+        "@type": "Offer",
+        "price": 670.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15 128GB VERDE LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5838",
+      "offers": {
+        "@type": "Offer",
+        "price": 670.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15 256GB AZUL LACRADO GAR APPLE",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "23818",
+      "offers": {
+        "@type": "Offer",
+        "price": 790.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15PLUS 128 AZUL LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "4558",
+      "offers": {
+        "@type": "Offer",
+        "price": 715.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15PROMAX 512GB AZUL LACRADO CPO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "22064",
+      "offers": {
+        "@type": "Offer",
+        "price": 1030.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 15PROMAX 512GB NEGRO LACRADO CPO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "22057",
+      "offers": {
+        "@type": "Offer",
+        "price": 1030.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 128GB AZUL LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "10719",
+      "offers": {
+        "@type": "Offer",
+        "price": 755.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 128GB NEGRO LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "4268",
+      "offers": {
+        "@type": "Offer",
+        "price": 755.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 128GB ROSA LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "1020",
+      "offers": {
+        "@type": "Offer",
+        "price": 755.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 256GB NEGRO LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "23825",
+      "offers": {
+        "@type": "Offer",
+        "price": 870.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 PRO 128GB DESERT LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5869",
+      "offers": {
+        "@type": "Offer",
+        "price": 935.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16 PRO 128GB NEGRO LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "4305",
+      "offers": {
+        "@type": "Offer",
+        "price": 935.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16E 128GB NEGRO LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "17787",
+      "offers": {
+        "@type": "Offer",
+        "price": 580.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16E 256GB BLANCO LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "20176",
+      "offers": {
+        "@type": "Offer",
+        "price": 720.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16PROMAX 1TB DESERT LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "12270",
+      "offers": {
+        "@type": "Offer",
+        "price": 1550.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16PROMAX 256GB BLANCO LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "4343",
+      "offers": {
+        "@type": "Offer",
+        "price": 1160.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16PROMAX 256GB DESERT LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5876",
+      "offers": {
+        "@type": "Offer",
+        "price": 1160.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16PROMAX 256GB NATURAL LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "5883",
+      "offers": {
+        "@type": "Offer",
+        "price": 1160.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16PROMAX 256GB SELLADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "20961",
+      "offers": {
+        "@type": "Offer",
+        "price": 1100.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "IPHONE 16PROMAX 512 BLANCO LACRADO",
+      "brand": "IPHONE GARANTIA APPLE",
+      "category": "Smartphone",
+      "sku": "10573",
+      "offers": {
+        "@type": "Offer",
+        "price": 1325.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL A50 128/3 NEGRO",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "628",
+      "offers": {
+        "@type": "Offer",
+        "price": 70.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL A90 128/4 GRIS",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "23399",
+      "offers": {
+        "@type": "Offer",
+        "price": 68.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL A90 128/4 NEGRO",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "23382",
+      "offers": {
+        "@type": "Offer",
+        "price": 68.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL A90 128/4 VERDE",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "23719",
+      "offers": {
+        "@type": "Offer",
+        "price": 68.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL CITY 100 4-128GB AZ",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "24686",
+      "offers": {
+        "@type": "Offer",
+        "price": 80.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL CITY 100 4-128GB CI",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "24693",
+      "offers": {
+        "@type": "Offer",
+        "price": 80.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL CITY 100 4-128GB RX",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "24709",
+      "offers": {
+        "@type": "Offer",
+        "price": 80.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL CITY 100 4-256GB CI",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "24716",
+      "offers": {
+        "@type": "Offer",
+        "price": 90.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL CITY 100 4-256GB RX",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "24723",
+      "offers": {
+        "@type": "Offer",
+        "price": 90.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL P55+ 128/4 NEGRO",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "14434",
+      "offers": {
+        "@type": "Offer",
+        "price": 82.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "ITEL P55+ 128/4 VERDE",
+      "brand": "ITEL",
+      "category": "Smartphone",
+      "sku": "14441",
+      "offers": {
+        "@type": "Offer",
+        "price": 82.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO E15 64/2 MORADO",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "19293",
+      "offers": {
+        "@type": "Offer",
+        "price": 67.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 40 NEO 12/256 CELESTE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "10351",
+      "offers": {
+        "@type": "Offer",
+        "price": 210.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 256/12 GRIS",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "23696",
+      "offers": {
+        "@type": "Offer",
+        "price": 285.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 FUSION 256/8 ROSA",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "16865",
+      "offers": {
+        "@type": "Offer",
+        "price": 209.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 FUSION 256/8 VERDE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "18258",
+      "offers": {
+        "@type": "Offer",
+        "price": 209.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 FUSION 512/12 AZUL",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "7412",
+      "offers": {
+        "@type": "Offer",
+        "price": 245.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 FUSION 512/12 ROSA",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "13031",
+      "offers": {
+        "@type": "Offer",
+        "price": 245.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 NEO 12/512 AZUL",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "16445",
+      "offers": {
+        "@type": "Offer",
+        "price": 271.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 NEO 12/512 ROJO",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "16971",
+      "offers": {
+        "@type": "Offer",
+        "price": 271.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 NEO 8/256 AZUL",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "22248",
+      "offers": {
+        "@type": "Offer",
+        "price": 238.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 PRO 5G 512/12 LAVANDA",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "16841",
+      "offers": {
+        "@type": "Offer",
+        "price": 375.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 50 ULTRA 16-1TB GRAY",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "24853",
+      "offers": {
+        "@type": "Offer",
+        "price": 620.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO EDGE 60 PRO 512/12 GRIS",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "23832",
+      "offers": {
+        "@type": "Offer",
+        "price": 490.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G04S 256/4 AZUL",
+      "brand": "MOTORola",
+      "category": "Smartphone",
+      "sku": "2165",
+      "offers": {
+        "@type": "Offer",
+        "price": 83.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G05 128/4 VERDE C/CARGADOR",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "23474",
+      "offers": {
+        "@type": "Offer",
+        "price": 85.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G05 256/4 ROJO",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "21944",
+      "offers": {
+        "@type": "Offer",
+        "price": 100.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G05 256/4 VERDE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "21937",
+      "offers": {
+        "@type": "Offer",
+        "price": 100.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G15 128/4 AZUL",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "23849",
+      "offers": {
+        "@type": "Offer",
+        "price": 97.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G15 256/4 GRIS",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "15752",
+      "offers": {
+        "@type": "Offer",
+        "price": 107.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G15 POWER 256/8 GRIS",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "22989",
+      "offers": {
+        "@type": "Offer",
+        "price": 130.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G15 POWER 256/8 VERDE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "22996",
+      "offers": {
+        "@type": "Offer",
+        "price": 130.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G24 256/4 VERDE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "10892",
+      "offers": {
+        "@type": "Offer",
+        "price": 110.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G35 128/4 NEGRO 5G",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "18944",
+      "offers": {
+        "@type": "Offer",
+        "price": 100.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G35 128/4 VERDE 5G",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "19941",
+      "offers": {
+        "@type": "Offer",
+        "price": 100.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G35 256/8 NEGRO",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "7443",
+      "offers": {
+        "@type": "Offer",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G35 256/8 VERDE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "7450",
+      "offers": {
+        "@type": "Offer",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G54 POWER 256/8 AZUL",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "18883",
+      "offers": {
+        "@type": "Offer",
+        "price": 148.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G54 POWER 256/8 VERDE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "22224",
+      "offers": {
+        "@type": "Offer",
+        "price": 148.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G55 256/8 GRIS",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "22484",
+      "offers": {
+        "@type": "Offer",
+        "price": 147.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G55 256/8 VERDE",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "16810",
+      "offers": {
+        "@type": "Offer",
+        "price": 147.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G75 256/8 GRIS",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "14694",
+      "offers": {
+        "@type": "Offer",
+        "price": 185.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G84 256/8 AZUL",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "2554",
+      "offers": {
+        "@type": "Offer",
+        "price": 160.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MOTO G85 256/8 AZUL CON CARGADOR",
+      "brand": "MOTOROLA",
+      "category": "Smartphone",
+      "sku": "14069",
+      "offers": {
+        "@type": "Offer",
+        "price": 195.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MULTILASER E2 3G",
+      "brand": "MULTILASER",
+      "category": "Smartphone",
+      "sku": "23634",
+      "offers": {
+        "@type": "Offer",
+        "price": 40.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MULTILASER M23 LITE 128GB",
+      "brand": "MULTILASER",
+      "category": "Smartphone",
+      "sku": "23658",
+      "offers": {
+        "@type": "Offer",
+        "price": 58.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "MULTILASER M23PRO 256GB",
+      "brand": "MULTILASER",
+      "category": "Smartphone",
+      "sku": "23641",
+      "offers": {
+        "@type": "Offer",
+        "price": 76.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "OPPO A38 128/4 DORADO",
+      "brand": "OPPO",
+      "category": "Smartphone",
+      "sku": "16012",
+      "offers": {
+        "@type": "Offer",
+        "price": 100.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "OPPO A58 256/8 VERDE",
+      "brand": "OPPO",
+      "category": "Smartphone",
+      "sku": "23740",
+      "offers": {
+        "@type": "Offer",
+        "price": 126.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "XIAOMI 15 512/12GB VERDE",
+      "brand": "XIAOMI",
+      "category": "Smartphone",
+      "sku": "24037",
+      "offers": {
+        "@type": "Offer",
+        "price": 750.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "XIAOMI MIX FLIP 12-512 NEGRO",
+      "brand": "XIAOMI",
+      "category": "Smartphone",
+      "sku": "24761",
+      "offers": {
+        "@type": "Offer",
+        "price": 710.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "XIAOMI 14T PRO 5G 512/12 GRIS",
+      "brand": "XIAOMI",
+      "category": "Smartphone",
+      "sku": "20183",
+      "offers": {
+        "@type": "Offer",
+        "price": 550.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C61 128/4 BLANCO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "22897",
+      "offers": {
+        "@type": "Offer",
+        "price": 69.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C61 128/4 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "23023",
+      "offers": {
+        "@type": "Offer",
+        "price": 69.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C61 128/4 VERDE",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "23016",
+      "offers": {
+        "@type": "Offer",
+        "price": 69.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C71 128/4 AZUL",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "20091",
+      "offers": {
+        "@type": "Offer",
+        "price": 74.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C71 128/4 DORADO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "23030",
+      "offers": {
+        "@type": "Offer",
+        "price": 74.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C71 128/4 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "20084",
+      "offers": {
+        "@type": "Offer",
+        "price": 74.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C71 64/3 AZUL",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "20145",
+      "offers": {
+        "@type": "Offer",
+        "price": 63.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C71 64/3 DORADO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "22002",
+      "offers": {
+        "@type": "Offer",
+        "price": 63.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C71 64/3 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "19644",
+      "offers": {
+        "@type": "Offer",
+        "price": 63.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C75 128/6 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "1540",
+      "offers": {
+        "@type": "Offer",
+        "price": 87.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C75 128/6 VERDE",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "1533",
+      "offers": {
+        "@type": "Offer",
+        "price": 87.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C75 256/8 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "1489",
+      "offers": {
+        "@type": "Offer",
+        "price": 109.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO C85 128/6 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "24839",
+      "offers": {
+        "@type": "Offer",
+        "price": 116.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO F7 PRO 5G 512/12 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "22019",
+      "offers": {
+        "@type": "Offer",
+        "price": 475.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO F7 ULTRA 512/16 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "20114",
+      "offers": {
+        "@type": "Offer",
+        "price": 625.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO M7 PRO 256/12 SILVER",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "23528",
+      "offers": {
+        "@type": "Offer",
+        "price": 184.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO M7 PRO 256/8 VERDE",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "19910",
+      "offers": {
+        "@type": "Offer",
+        "price": 167.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO M7 PRO 512/12 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "23429",
+      "offers": {
+        "@type": "Offer",
+        "price": 202.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO M7 PRO 512/12 SILVER",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "24105",
+      "offers": {
+        "@type": "Offer",        "price": 202.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO X7 5G 256/8 BLANCO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "19668",
+      "offers": {
+        "@type": "Offer",
+        "price": 212.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO X7 5G 512/12 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "19705",
+      "offers": {
+        "@type": "Offer",
+        "price": 242.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO X7 PRO 5G 256/8 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "17893",
+      "offers": {
+        "@type": "Offer",
+        "price": 263.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO X7 PRO 5G 256/8 VERDE",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "23559",
+      "offers": {
+        "@type": "Offer",
+        "price": 263.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO X7 PRO 5G 512/12 NEGRO",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "14212",
+      "offers": {
+        "@type": "Offer",
+        "price": 312.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "POCO X7 PRO 5G 512/12 VERDE",
+      "brand": "POCO",
+      "category": "Smartphone",
+      "sku": "14328",
+      "offers": {
+        "@type": "Offer",
+        "price": 312.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REALME C61 128/6 DORADO",
+      "brand": "REALME",
+      "category": "Smartphone",
+      "sku": "23047",
+      "offers": {
+        "@type": "Offer",
+        "price": 99.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REALME C61.128/6 VERDE",
+      "brand": "REALME",
+      "category": "Smartphone",
+      "sku": "23054",
+      "offers": {
+        "@type": "Offer",
+        "price": 99.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REALME C67 128/8 NEGRO",
+      "brand": "REALME",
+      "category": "Smartphone",
+      "sku": "1465",
+      "offers": {
+        "@type": "Offer",
+        "price": 113.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REALME NOTE 60 128/4 AZUL",
+      "brand": "REALME",
+      "category": "Smartphone",
+      "sku": "13413",
+      "offers": {
+        "@type": "Offer",
+        "price": 82.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REALME NOTE 60 256/4 AZUL",
+      "brand": "REALME",
+      "category": "Smartphone",
+      "sku": "18920",
+      "offers": {
+        "@type": "Offer",
+        "price": 96.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REALME NOTE 60 256/4 NEGRO",
+      "brand": "REALME",
+      "category": "Smartphone",
+      "sku": "18289",
+      "offers": {
+        "@type": "Offer",
+        "price": 96.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 13 128/6 NEGRO",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "13574",
+      "offers": {
+        "@type": "Offer",
+        "price": 93.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 13 128/6 PINK",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "24426",
+      "offers": {
+        "@type": "Offer",
+        "price": 94.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 13 256/8 AZUL",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "18074",
+      "offers": {
+        "@type": "Offer",
+        "price": 108.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 13C 128/4 SWAP",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "17909",
+      "offers": {
+        "@type": "Offer",
+        "price": 84.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 13X 256/8 NEGRO",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "19880",
+      "offers": {
+        "@type": "Offer",
+        "price": 107.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 14C 128/4 AZUL",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "963",
+      "offers": {
+        "@type": "Offer",
+        "price": 93.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 14C 128/4 LILA",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "18500",
+      "offers": {
+        "@type": "Offer",
+        "price": 93.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 14C 128/4 NEGRO",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "970",
+      "offers": {
+        "@type": "Offer",
+        "price": 93.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 14C 128/4 VERDE",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "987",
+      "offers": {
+        "@type": "Offer",
+        "price": 93.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 14C 256/8 AZUL",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "1076",
+      "offers": {
+        "@type": "Offer",
+        "price": 109.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 14C 256/8 NEGRO",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "1052",
+      "offers": {
+        "@type": "Offer",
+        "price": 109.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI 15C 256/4 AZUL",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "24792",
+      "offers": {
+        "@type": "Offer",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI A5 128/4 AZUL",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "19071",
+      "offers": {
+        "@type": "Offer",
+        "price": 76.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI A5 128/4 NEGRO",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "18562",
+      "offers": {
+        "@type": "Offer",
+        "price": 76.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI A5 64/3 AZUL",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "19743",
+      "offers": {
+        "@type": "Offer",
+        "price": 65.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI A5 64/3 NEGRO",
+      "brand": "REDMI",
+      "category": "Smartphone",
+      "sku": "19095",
+      "offers": {
+        "@type": "Offer",
+        "price": 65.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 13PRO+5G 512/12 BLANCO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "48",
+      "offers": {
+        "@type": "Offer",
+        "price": 310.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 13PRO+ 5G 512/12 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "17",
+      "offers": {
+        "@type": "Offer",
+        "price": 310.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 4G 128/6 AZUL",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "17732",
+      "offers": {
+        "@type": "Offer",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 4G 128/6 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "15639",
+      "offers": {
+        "@type": "Offer",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 4G 128/6 VERDE",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "17749",
+      "offers": {
+        "@type": "Offer",
+        "price": 128.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 4G 256/8 AZUL",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "14595",
+      "offers": {
+        "@type": "Offer",
+        "price": 149.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 4G 256/8 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "14588",
+      "offers": {
+        "@type": "Offer",
+        "price": 149.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 4G 256/8 VERDE",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "16155",
+      "offers": {
+        "@type": "Offer",
+        "price": 149.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 5G 256/8 VERDE",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "20374",
+      "offers": {
+        "@type": "Offer",
+        "price": 195.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14 5G 512/12 VERDE",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "20473",
+      "offers": {
+        "@type": "Offer",
+        "price": 239.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO 4G 256/8 AZUL",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "15363",
+      "offers": {
+        "@type": "Offer",
+        "price": 197.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO 4G 256/8 DORADO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "24563",
+      "offers": {
+        "@type": "Offer",
+        "price": 197.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO 4G 256/8 LILA",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "16797",
+      "offers": {
+        "@type": "Offer",
+        "price": 197.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO 4G 256/8 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "16292",
+      "offers": {
+        "@type": "Offer",
+        "price": 197.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO 4G 512/12 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "18715",
+      "offers": {
+        "@type": "Offer",
+        "price": 245.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO 5G 256/8 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "15356",
+      "offers": {
+        "@type": "Offer",
+        "price": 241.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO 5G 512/12 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "20381",
+      "offers": {
+        "@type": "Offer",
+        "price": 285.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14PRO+5G 256/8 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "14205",
+      "offers": {
+        "@type": "Offer",
+        "price": 287.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "REDMI NOTE 14S 256/8 NEGRO",
+      "brand": "REDMI NOTE",
+      "category": "Smartphone",
+      "sku": "18111",
+      "offers": {
+        "@type": "Offer",
+        "price": 178.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 128/4 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18036",
+      "offers": {
+        "@type": "Offer",
+        "price": 120.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 128/4 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "17077",
+      "offers": {
+        "@type": "Offer",
+        "price": 120.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 128/4 VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18029",
+      "offers": {
+        "@type": "Offer",
+        "price": 120.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 128/6 VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18807",
+      "offers": {
+        "@type": "Offer",
+        "price": 138.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 256/8 4G BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "14267",
+      "offers": {
+        "@type": "Offer",
+        "price": 157.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 256/8 4G NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "14243",
+      "offers": {
+        "@type": "Offer",
+        "price": 157.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 256/8 4G VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23160",
+      "offers": {
+        "@type": "Offer",
+        "price": 157.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 256/8 5G GOLD",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23443",
+      "offers": {
+        "@type": "Offer",
+        "price": 175.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 256/8 5G LIGHT GRAY",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "24594",
+      "offers": {
+        "@type": "Offer",
+        "price": 175.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 256/8 5G NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "25436",
+      "offers": {
+        "@type": "Offer",
+        "price": 175.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A16 256/8 5G VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "14250",
+      "offers": {
+        "@type": "Offer",
+        "price": 175.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A26 5G 128/6 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "24396",
+      "offers": {
+        "@type": "Offer",
+        "price": 192.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A26 5G 128/6 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "20213",
+      "offers": {
+        "@type": "Offer",
+        "price": 192.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A26 5G 128/6 VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "22934",
+      "offers": {
+        "@type": "Offer",
+        "price": 192.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A26 5G 256/8 VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "20206",
+      "offers": {
+        "@type": "Offer",
+        "price": 209.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 128/6 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23733",
+      "offers": {
+        "@type": "Offer",
+        "price": 253.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 128/6 LILA",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "19590",
+      "offers": {
+        "@type": "Offer",
+        "price": 253.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 128/6 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "19576",
+      "offers": {
+        "@type": "Offer",
+        "price": 253.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 128/6 VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "19583",
+      "offers": {
+        "@type": "Offer",
+        "price": 253.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 5G 256/8 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18654",
+      "offers": {
+        "@type": "Offer",
+        "price": 267.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 5G 256/8 LILA",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18647",
+      "offers": {
+        "@type": "Offer",
+        "price": 267.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 5G 256/8 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18678",
+      "offers": {
+        "@type": "Offer",
+        "price": 267.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A36 5G 256/8 VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18661",
+      "offers": {
+        "@type": "Offer",
+        "price": 267.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A55 256/8 5G NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23894",
+      "offers": {
+        "@type": "Offer",
+        "price": 315.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A56 128/8 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18524",
+      "offers": {
+        "@type": "Offer",
+        "price": 325.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG A56 128/8 ROSA",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "21951",
+      "offers": {
+        "@type": "Offer",
+        "price": 325.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S20 128GB NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "14298",
+      "offers": {
+        "@type": "Offer",
+        "price": 165.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S24 ULTRA 256/12 GRIS",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "10474",
+      "offers": {
+        "@type": "Offer",
+        "price": 775.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S24 ULTRA 256/12 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "12065",
+      "offers": {
+        "@type": "Offer",
+        "price": 775.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S24+512/12 GRIS",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "19163",
+      "offers": {
+        "@type": "Offer",
+        "price": 700.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S24FE 256/8 AZUL",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "4039",
+      "offers": {
+        "@type": "Offer",
+        "price": 450.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S24FE 256/8 GRIS",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18142",
+      "offers": {
+        "@type": "Offer",
+        "price": 450.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 128GB AZUL",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18173",
+      "offers": {
+        "@type": "Offer",
+        "price": 605.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 256/12 AZUL",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "16421",
+      "offers": {
+        "@type": "Offer",
+        "price": 665.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 256/12 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "17022",
+      "offers": {
+        "@type": "Offer",
+        "price": 665.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 256/12 NAVY",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "19132",
+      "offers": {
+        "@type": "Offer",
+        "price": 665.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 256/12 VERDE",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "17039",
+      "offers": {
+        "@type": "Offer",
+        "price": 665.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 EDGE 512/12 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "24495",
+      "offers": {
+        "@type": "Offer",
+        "price": 775.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 ULTRA 1TB/12 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23542",
+      "offers": {
+        "@type": "Offer",
+        "price": 1130.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 ULTRA 256/12 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "16728",
+      "offers": {
+        "@type": "Offer",
+        "price": 935.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 ULTRA 512/12 AZUL",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "22644",
+      "offers": {
+        "@type": "Offer",
+        "price": 1030.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 ULTRA 512/12 BLANCO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "18227",
+      "offers": {
+        "@type": "Offer",
+        "price": 1035.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 ULTRA 512/12 GRIS",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "19613",
+      "offers": {
+        "@type": "Offer",
+        "price": 1030.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25 ULTRA 512/12 NEGRO",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "17237",
+      "offers": {
+        "@type": "Offer",
+        "price": 1030.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25+256/12 AZUL",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "20503",
+      "offers": {
+        "@type": "Offer",
+        "price": 780.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25+ 512/12 AZUL",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23900",
+      "offers": {
+        "@type": "Offer",
+        "price": 850.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG S25+ 512/12 PLATA",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23917",
+      "offers": {
+        "@type": "Offer",
+        "price": 850.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "SAMSUNG Z FLIP 7 12-512 JETBLACK",
+      "brand": "SAMSUNG",
+      "category": "Smartphone",
+      "sku": "23979",
+      "offers": {
+        "@type": "Offer",
+        "price": 980.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "TECNO SPARK 20 256/8 NEGRO",
+      "brand": "TECNO SPARK",
+      "category": "Smartphone",
+      "sku": "3315",
+      "offers": {
+        "@type": "Offer",
+        "price": 93.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "TECNO SPARK 30C 128/4 NEGRO",
+      "brand": "TECNO SPARK",
+      "category": "Smartphone",
+      "sku": "23702",
+      "offers": {
+        "@type": "Offer",
+        "price": 85.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "TECNO SPARK 30PRO 256/8 NEGRO",
+      "brand": "TECNO SPARK",
+      "category": "Smartphone",
+      "sku": "14397",
+      "offers": {
+        "@type": "Offer",
+        "price": 134.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "TECNO SPARK GO 1 128/4 BLANCO",
+      "brand": "TECNO SPARK",
+      "category": "Smartphone",
+      "sku": "11273",
+      "offers": {
+        "@type": "Offer",
+        "price": 75.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "TECNO SPARK GO 1 128/4 NEGRO",
+      "brand": "TECNO SPARK",
+      "category": "Smartphone",
+      "sku": "11297",
+      "offers": {
+        "@type": "Offer",
+        "price": 75.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "TECNO SPARK GO 1 64/3 NEGRO",
+      "brand": "TECNO SPARK",
+      "category": "Smartphone",
+      "sku": "13406",
+      "offers": {
+        "@type": "Offer",
+        "price": 67.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "UMIDIGI NOTE 90 128/8 BLANCO",
+      "brand": "UMIDIGI NOTE",
+      "category": "Smartphone",
+      "sku": "20039",
+      "offers": {
+        "@type": "Offer",
+        "price": 73.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "UMIDIGI NOTE 90 128/8 NEGRO",
+      "brand": "UMIDIGI NOTE",
+      "category": "Smartphone",
+      "sku": "2677",
+      "offers": {
+        "@type": "Offer",
+        "price": 73.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "UMIDIGI NOTE 90 128/8 VERDE",
+      "brand": "UMIDIGI NOTE",
+      "category": "Smartphone",
+      "sku": "2660",
+      "offers": {
+        "@type": "Offer",
+        "price": 73.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "UMIDIGI NOTE 90 256/8 NEGRO",
+      "brand": "UMIDIGI NOTE",
+      "category": "Smartphone",
+      "sku": "2646",
+      "offers": {
+        "@type": "Offer",
+        "price": 80.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "UMIDIGI NOTE 90 256/8 VERDE",
+      "brand": "UMIDIGI NOTE",
+      "category": "Smartphone",
+      "sku": "2653",
+      "offers": {
+        "@type": "Offer",
+        "price": 80.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "UMIDIGI NOTE 90C 128/4 NEGRO",
+      "brand": "UMIDIGI NOTE",
+      "category": "Smartphone",
+      "sku": "14120",
+      "offers": {
+        "@type": "Offer",
+        "price": 85.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    },
+    {
+      "@type": "Product",
+      "name": "UMIDIGI NOTE 90C 128/4 VERDE",
+      "brand": "UMIDIGI NOTE",
+      "category": "Smartphone",
+      "sku": "14137",
+      "offers": {
+        "@type": "Offer",
+        "price": 5.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    }
+  ]
+}

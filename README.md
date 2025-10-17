@@ -1,37 +1,92 @@
 # Repositorio de Precios para Agentes de IA
 
-Este repositorio aloja una página de GitHub Pages con una lista de precios de productos. La estructura está diseñada para que agentes de inteligencia artificial (como Gemini, OpenAI, Meta, Copilot, etc.) puedan acceder y procesar los datos de precios de forma sencilla y semántica.
+Este repositorio aloja una lista de precios de productos en formato JSON-LD, diseñada para que agentes de inteligencia artificial y motores de búsqueda puedan acceder y procesar los datos de forma semántica y estructurada.
 
-## Estructura de Datos
+## Archivo de Datos
 
-Los datos de precios están disponibles de dos formas principales para los agentes de IA:
+El archivo principal de datos es `data/precios_telefonos.json`. Este archivo está en formato JSON-LD y contiene una lista de productos tecnológicos (teléfonos móviles).
 
-1.  **JSON-LD (Schema Markup) incrustado en `index.html`:**
-    *   La página `index.html` contiene datos estructurados en formato JSON-LD, siguiendo el vocabulario de [Schema.org](https://schema.org/).
-    *   Esto permite a los rastreadores y agentes de IA entender el contexto de los productos y sus ofertas directamente desde el HTML.
-    *   Se utilizan tipos como `WebPage`, `OfferCatalog`, `Offer` y `Product`, incluyendo propiedades como `name`, `description`, `price`, `priceCurrency` y `validThrough`.
+## Estructura del JSON-LD
 
-2.  **Archivo `data/prices.json`:**
-    *   Un archivo JSON plano (`/data/prices.json`) que contiene la misma información de productos en un formato de array de objetos.
-    *   Este archivo es ideal para el consumo directo por APIs o scripts que prefieran un formato de datos puro.
+El archivo utiliza el vocabulario de `schema.org` para describir los productos. La estructura principal es un objeto JSON con una clave `@graph` que contiene un array de productos.
 
-### Formato de `data/prices.json` (ejemplo):
+Cada objeto en el array `@graph` es un producto con el tipo `@type: "Product"`.
+
+### Propiedades del Producto
+
+-   `@type`: Siempre es `"Product"`.
+-   `name`: El nombre completo del producto.
+-   `brand`: La marca del dispositivo.
+-   `category`: La categoría del producto (ej. "Smartphone").
+-   `sku`: El identificador único del producto.
+-   `offers`: Contiene la información de la oferta para el producto. Puede ser un objeto `Offer` o un `AggregateOffer`.
+
+### Tipos de Ofertas
+
+#### 1. `Offer` (Oferta Individual)
+
+Si un producto tiene una única oferta, la propiedad `offers` contendrá un objeto con `@type: "Offer"`.
+
+**Ejemplo de Producto con Oferta Individual:**
 
 ```json
-[
-  {
-    "id": "sku-001",
-    "product": "Nombre del Producto",
-    "description": "Descripción breve del producto.",
-    "price": 99.99,
-    "currency": "USD"
+{
+  "@type": "Product",
+  "name": "CATERPILLAR S62 PRO",
+  "brand": "CATERPILLAR",
+  "category": "Smartphone",
+  "sku": "23627",
+  "offers": {
+    "@type": "Offer",
+    "price": 410.0,
+    "priceCurrency": "USD",
+    "availability": "https://schema.org/InStock",
+    "itemCondition": "https://schema.org/NewCondition"
   }
-]
+}
+```
+
+#### 2. `AggregateOffer` (Ofertas Agregadas)
+
+Si un producto tiene múltiples ofertas (por ejemplo, diferentes variantes del mismo modelo), la propiedad `offers` contendrá un objeto con `@type: "AggregateOffer"`.
+
+Este objeto agrupa las ofertas individuales y proporciona un rango de precios (`lowPrice` y `highPrice`) y el número total de ofertas (`offerCount`).
+
+**Ejemplo de Producto con Ofertas Agregadas:**
+
+```json
+{
+  "@type": "Product",
+  "name": "IPHONE 11 128GB",
+  "brand": "IPHONE SWAP",
+  "category": "Smartphone",
+  "sku": "4893",
+  "offers": {
+    "@type": "AggregateOffer",
+    "lowPrice": 205.0,
+    "highPrice": 215.0,
+    "offerCount": 2,
+    "offers": [
+      {
+        "@type": "Offer",
+        "price": 215.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      },
+      {
+        "@type": "Offer",
+        "price": 205.0,
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
+      }
+    ]
+  }
+}
 ```
 
 ## Uso
 
--   **Humanos:** Pueden ver la lista de precios formateada visitando la GitHub Page asociada a este repositorio.
--   **Agentes de IA:**
-    *   Pueden parsear el JSON-LD incrustado en `index.html` para obtener datos estructurados y semánticamente ricos.
-    *   Pueden consumir los datos directamente desde el archivo `data/prices.json` para obtener la información de precios más actualizada en formato JSON puro.
+-   **Agentes de IA y Motores de Búsqueda:** Pueden consumir directamente el archivo `data/precios_telefonos.json` para obtener datos estructurados y semánticamente ricos de los productos.
+-   **Desarrolladores:** Pueden parsear el archivo JSON-LD para utilizar los datos en sus aplicaciones.

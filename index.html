@@ -8,60 +8,22 @@
     <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Lista de Precios de Productos para Agentes de IA",
-  "description": "Página que lista precios de productos, estructurada con Schema.org para fácil consumo por agentes de inteligencia artificial.",
-  "mainEntity": {
-    "@type": "OfferCatalog",
-    "name": "Catálogo de Precios",
-    "description": "Catálogo de ofertas de productos.",
-    "itemListElement": [
-      {
+  "@graph": [
+    {
+      "@type": "Product",
+      "name": "CATERPILLAR S62 PRO",
+      "brand": "CATERPILLAR",
+      "category": "Smartphone",
+      "sku": "23627",
+      "offers": {
         "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "Laptop Pro 15",
-          "description": "Laptop potente para profesionales y creativos."
-        },
-        "price": "1499.99",
+        "price": 410.0,
         "priceCurrency": "USD",
-        "validThrough": "2026-12-31"
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "Ratón Inalámbrico Ergonómico",
-          "description": "Ratón diseñado para la comodidad y la productividad."
-        },
-        "price": "49.99",
-        "priceCurrency": "USD",
-        "validThrough": "2026-12-31"
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "Teclado Mecánico RGB",
-          "description": "Teclado con retroiluminación RGB y switches mecánicos."
-        },
-        "price": "129.99",
-        "priceCurrency": "USD",
-        "validThrough": "2026-12-31"
-      },
-      {
-        "@type": "Offer",
-        "itemOffered": {
-          "@type": "Product",
-          "name": "Monitor 4K UHD 27"",
-          "description": "Monitor de alta resolución para una calidad de imagen superior."
-        },
-        "price": "399.99",
-        "priceCurrency": "USD",
-        "validThrough": "2026-12-31"
+        "availability": "https://schema.org/InStock",
+        "itemCondition": "https://schema.org/NewCondition"
       }
-    ]
-  }
+    }
+  ]
 }
     </script>
 </head>
@@ -76,39 +38,48 @@
             <thead>
                 <tr>
                     <th>Producto</th>
-                    <th>Descripción</th>
                     <th>Precio</th>
                 </tr>
             </thead>
             <tbody id="price-table-body">
-                <tr>
-                    <td>Laptop Pro 15</td>
-                    <td>Laptop potente para profesionales y creativos.</td>
-                    <td>1499.99 USD</td>
-                </tr>
-                <tr>
-                    <td>Ratón Inalámbrico Ergonómico</td>
-                    <td>Ratón diseñado para la comodidad y la productividad.</td>
-                    <td>49.99 USD</td>
-                </tr>
-                <tr>
-                    <td>Teclado Mecánico RGB</td>
-                    <td>Teclado con retroiluminación RGB y switches mecánicos.</td>
-                    <td>129.99 USD</td>
-                </tr>
-                <tr>
-                    <td>Monitor 4K UHD 27"</td>
-                    <td>Monitor de alta resolución para una calidad de imagen superior.</td>
-                    <td>399.99 USD</td>
-                </tr>
             </tbody>
         </table>
     </main>
 
     <footer>
-        <p>Datos actualizados dinámicamente. Para consumo de API, usar el archivo /data/prices.json</p>
+        <p>Datos actualizados dinámicamente. Para consumo de API, usar el archivo /data/precios_telefonos.json</p>
         <p>Datos estructurados disponibles en formato JSON-LD en el head de esta página.</p>
     </footer>
+
+    <script>
+      fetch('data/precios_telefonos.json')
+        .then(response => response.json())
+        .then(data => {
+          const tableBody = document.getElementById('price-table-body');
+          tableBody.innerHTML = '';
+          data['@graph'].forEach(product => {
+            const row = document.createElement('tr');
+            
+            const nameCell = document.createElement('td');
+            nameCell.textContent = product.name;
+            row.appendChild(nameCell);
+            
+            const priceCell = document.createElement('td');
+            let price = 'N/A';
+            if (product.offers) {
+              if (product.offers['@type'] === 'AggregateOffer') {
+                price = `${product.offers.lowPrice} - ${product.offers.highPrice}`;
+              } else {
+                price = product.offers.price;
+              }
+            }
+            priceCell.textContent = `${price} ${product.offers.priceCurrency || 'USD'}`;
+            row.appendChild(priceCell);
+            
+            tableBody.appendChild(row);
+          });
+        });
+    </script>
 
 </body>
 </html>
