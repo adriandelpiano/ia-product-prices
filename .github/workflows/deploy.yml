@@ -1,15 +1,15 @@
-name: Deploy GitHub Pages
+name: Generar y desplegar catálogo
 
 on:
   push:
     branches:
-      - master # Desplegar desde la rama master
+      - master
 
 jobs:
-  deploy:
+  build-and-deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: read
+      contents: write
       pages: write
       id-token: write
     environment:
@@ -17,17 +17,25 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: Checkout
+      - name: Checkout repositorio
         uses: actions/checkout@v4
 
-      - name: Setup Pages
+      - name: Instalar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Ejecutar script para generar HTML
+        run: node scripts/generar-html.js
+
+      - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
 
-      - name: Upload artifact
+      - name: Subir carpeta docs como artefacto
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # Subir todo el repositorio como el artefacto
+          path: 'docs'
 
-      - name: Deploy to GitHub Pages
+      - name: Desplegar en GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
