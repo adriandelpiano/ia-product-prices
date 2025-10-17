@@ -5,6 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Precios de Productos</title>
     <link rel="stylesheet" href="css/style.css">
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebPage",
+  "name": "Lista de Precios de Productos para Agentes de IA",
+  "description": "Página que lista precios de productos, estructurada con Schema.org para fácil consumo por agentes de inteligencia artificial.",
+  "mainEntity": {
+    "@type": "OfferCatalog",
+    "name": "Catálogo de Precios",
+    "description": "Catálogo de ofertas de productos.",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Laptop Pro 15",
+          "description": "Laptop potente para profesionales y creativos."
+        },
+        "price": "1499.99",
+        "priceCurrency": "USD",
+        "validThrough": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Ratón Inalámbrico Ergonómico",
+          "description": "Ratón diseñado para la comodidad y la productividad."
+        },
+        "price": "49.99",
+        "priceCurrency": "USD",
+        "validThrough": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Teclado Mecánico RGB",
+          "description": "Teclado con retroiluminación RGB y switches mecánicos."
+        },
+        "price": "129.99",
+        "priceCurrency": "USD",
+        "validThrough": "2026-12-31"
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Product",
+          "name": "Monitor 4K UHD 27"",
+          "description": "Monitor de alta resolución para una calidad de imagen superior."
+        },
+        "price": "399.99",
+        "priceCurrency": "USD",
+        "validThrough": "2026-12-31"
+      }
+    ]
+  }
+}
+    </script>
 </head>
 <body>
 
@@ -22,15 +81,34 @@
                 </tr>
             </thead>
             <tbody id="price-table-body">
-                <!-- Los datos se cargarán aquí dinámicamente -->
+                <tr>
+                    <td>Laptop Pro 15</td>
+                    <td>Laptop potente para profesionales y creativos.</td>
+                    <td>1499.99 USD</td>
+                </tr>
+                <tr>
+                    <td>Ratón Inalámbrico Ergonómico</td>
+                    <td>Ratón diseñado para la comodidad y la productividad.</td>
+                    <td>49.99 USD</td>
+                </tr>
+                <tr>
+                    <td>Teclado Mecánico RGB</td>
+                    <td>Teclado con retroiluminación RGB y switches mecánicos.</td>
+                    <td>129.99 USD</td>
+                </tr>
+                <tr>
+                    <td>Monitor 4K UHD 27"</td>
+                    <td>Monitor de alta resolución para una calidad de imagen superior.</td>
+                    <td>399.99 USD</td>
+                </tr>
             </tbody>
         </table>
     </main>
 
     <footer>
         <p>Datos actualizados dinámicamente. Para consumo de API, usar el archivo /data/prices.json</p>
+        <p>Datos estructurados disponibles en formato JSON-LD en el head de esta página.</p>
     </footer>
 
-    <script src="js/main.js"></script>
 </body>
 </html>
