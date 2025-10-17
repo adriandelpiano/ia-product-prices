@@ -1,6 +1,12 @@
 const fs = require('fs');
 const path = require('path');
 
+// Crear carpeta docs si no existe
+const docsPath = path.join(__dirname, '../docs');
+if (!fs.existsSync(docsPath)) {
+  fs.mkdirSync(docsPath);
+}
+
 // Leer archivo JSON con @context y @graph
 const raw = JSON.parse(fs.readFileSync(path.join(__dirname, '../data/productos.json'), 'utf8'));
 const productos = raw['@graph'] || [];
@@ -41,5 +47,9 @@ productos.forEach(p => {
 });
 
 html += `</body></html>`;
-fs.writeFileSync(path.join(__dirname, '../docs/index.html'), html);
+
+// Guardar HTML y .nojekyll
+fs.writeFileSync(path.join(docsPath, 'index.html'), html);
+fs.writeFileSync(path.join(docsPath, '.nojekyll'), '');
+
 console.log("✅ HTML generado en docs/index.html");
