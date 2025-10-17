@@ -1,0 +1,30 @@
+[
+  {
+    "id": "sku-001",
+    "product": "Laptop Pro 15",
+    "description": "Laptop potente para profesionales y creativos.",
+    "price": 1499.99,
+    "currency": "USD"
+  },
+  {
+    "id": "sku-002",
+    "product": "Ratón Inalámbrico Ergonómico",
+    "description": "Ratón diseñado para la comodidad y la productividad.",
+    "price": 49.99,
+    "currency": "USD"
+  },
+  {
+    "id": "sku-003",
+    "product": "Teclado Mecánico RGB",
+    "description": "Teclado con retroiluminación RGB y switches mecánicos.",
+    "price": 129.99,
+    "currency": "USD"
+  },
+  {
+    "id": "sku-004",
+    "product": "Monitor 4K UHD 27\"",
+    "description": "Monitor de alta resolución para una calidad de imagen superior.",
+    "price": 399.99,
+    "currency": "USD"
+  }
+]
