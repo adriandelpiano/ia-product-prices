@@ -26,7 +26,19 @@ jobs:
           node-version: '18'
 
       - name: Ejecutar script para generar HTML
-        run: node scripts/generar-html.js
+        run: |
+          echo "🚀 Ejecutando script generar-html.js"
+          node scripts/generar-html.js
+
+      - name: Verificar carpeta docs
+        run: |
+          if [ -d "docs" ]; then
+            echo "📁 Carpeta docs encontrada:"
+            ls docs
+          else
+            echo "❌ Carpeta docs no encontrada. Abortando."
+            exit 1
+          fi
 
       - name: Configurar GitHub Pages
         uses: actions/configure-pages@v4
