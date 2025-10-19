@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Agua Abajo</title>
+    <style>
+        :root {
+            --water-height: 20vh;
+            --boat-size: 10vmin;
+            --item-size: 6vmin;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(to bottom, #87CEEB 0%, #B2FFFF 80%);
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #game-container {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            max-width: 1000px; /* Max width for desktop for better playability */
+            overflow: hidden;
+        }
+
+        #score {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            font-size: 3em;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+            z-index: 100;
+        }
+        
+        #instructions {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            color: white;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.5);
+            text-align: right;
+            z-index: 100;
+        }
+
+        #water {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: var(--water-height);
+            background-color: #1E90FF;
+            overflow: hidden;
+        }
+
+        /* Animated waves using pseudo-elements */
+        #water::before, #water::after {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 100px;
+            left: -50%;
+            top: -50px;
+            background-repeat: repeat-x;
+            background-size: 50% 100px;
+        }
+
+        #water::before {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,50 C25,80 75,20 100,50 L100,100 L0,100 Z' fill='rgba(255,255,255,0.2)'/%3E%3C/svg%3E");
+            animation: wave 10s linear infinite;
+            z-index: 10;
+        }
+
+        #water::after {
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath d='M0,60 C30,40 70,80 100,60 L100,100 L0,100 Z' fill='rgba(255,255,255,0.3)'/%3E%3C/svg%3E");
+            animation: wave 7s linear infinite reverse;
+            z-index: 9;
+        }
+
+        @keyframes wave {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        #boat {
+            position: absolute;
+            width: var(--boat-size);
+            height: var(--boat-size);
+            bottom: calc(var(--water-height) - (var(--boat-size) / 2));
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: calc(var(--boat-size) * 0.8);
+            text-align: center;
+            line-height: var(--boat-size);
+            z-index: 20;
+            transition: left 0.1s linear; /* Smooth movement for touch */
+        }
+
+        .item {
+            position: absolute;
+            width: var(--item-size);
+            height: var(--item-size);
+            font-size: calc(var(--item-size) * 0.9);
+            text-align: center;
+            line-height: var(--item-size);
+            user-select: none;
+            z-index: 5;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div id="game-container">
+        <div id="score">0</div>
+        <div id="instructions">
+            <p>← → para mover</p>
+            <p>Toca para mover en móvil</p>
+        </div>
+        <div id="boat">🚤</div>
+        <div id="water"></div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const gameContainer = document.getElementById('game-container');
+            const boat = document.getElementById('boat');
+            const scoreElement = document.getElementById('score');
+            
+            let score = 0;
+            let boatPosition = 50; // in percentage
+            const boatSpeed = 2; // percentage per frame
+
+            const keysPressed = {
+                ArrowLeft: false,
+                ArrowRight: false
+            };
+
+            const itemTypes = [
+                { emoji: '💎', value: 50, name: 'treasure' },
+                { emoji: '🍎', value: 10, name: 'fruit' },
+                { emoji: '🍌', value: 10, name: 'fruit' },
+                { emoji: '🗑️', value: -25, name: 'trash' },
+                { emoji: '👢', value: -10, name: 'trash' }
+            ];
+
+            function createItem() {
+                const itemData = itemTypes[Math.floor(Math.random() * itemTypes.length)];
+                const itemElement = document.createElement('div');
+                itemElement.classList.add('item');
+                itemElement.textContent = itemData.emoji;
+                
+                const speed = Math.random() * 2 + 1; // Speed between 1 and 3
+                const horizontalPosition = Math.random() * 95; // % from left
+
+                itemElement.style.left = `${horizontalPosition}%`;
+                itemElement.style.top = `-${parseInt(getComputedStyle(itemElement).height)}px`;
+
+                gameContainer.appendChild(itemElement);
+
+                moveItem(itemElement, speed, itemData.value);
+            }
+
+            function moveItem(element, speed, value) {
+                let topPosition = element.offsetTop;
+
+                function frame() {
+                    topPosition += speed;
+                    element.style.top = `${topPosition}px`;
+
+                    // Collision detection
+                    const boatRect = boat.getBoundingClientRect();
+                    const itemRect = element.getBoundingClientRect();
+
+                    if (
+                        itemRect.bottom > boatRect.top &&
+                        itemRect.top < boatRect.bottom &&
+                        itemRect.right > boatRect.left &&
+                        itemRect.left < boatRect.right
+                    ) {
+                        updateScore(value);
+                        element.remove();
+                        return; // Stop animation for this item
+                    }
+
+                    // If item is off-screen
+                    if (topPosition > window.innerHeight) {
+                        element.remove();
+                        return; // Stop animation
+                    }
+                    
+                    requestAnimationFrame(frame);
+                }
+                requestAnimationFrame(frame);
+            }
+
+            function updateScore(change) {
+                score += change;
+                scoreElement.textContent = score;
+            }
+
+            function updateBoatPosition() {
+                if (keysPressed.ArrowLeft) {
+                    boatPosition -= boatSpeed;
+                }
+                if (keysPressed.ArrowRight) {
+                    boatPosition += boatSpeed;
+                }
+
+                // Clamp boat position to screen bounds
+                const boatWidth = (boat.offsetWidth / window.innerWidth) * 100;
+                boatPosition = Math.max(0, Math.min(100 - boatWidth, boatPosition));
+                
+                boat.style.left = `${boatPosition}%`;
+                boat.style.transform = 'translateX(0)'; // Override initial centering
+            }
+            
+            function gameLoop() {
+                updateBoatPosition();
+                requestAnimationFrame(gameLoop);
+            }
+
+            // Keyboard controls
+            window.addEventListener('keydown', (e) => {
+                if (e.key in keysPressed) {
+                    keysPressed[e.key] = true;
+                }
+            });
+
+            window.addEventListener('keyup', (e) => {
+                if (e.key in keysPressed) {
+                    keysPressed[e.key] = false;
+                }
+            });
+
+            // Touch controls for mobile
+            gameContainer.addEventListener('touchmove', (e) => {
+                e.preventDefault(); // Prevent scrolling
+                const touchX = e.touches[0].clientX;
+                const gameRect = gameContainer.getBoundingClientRect();
+                const boatWidth = boat.offsetWidth;
+                
+                // Calculate position as a percentage of the game container width
+                let newPos = ((touchX - gameRect.left) / gameRect.width) * 100;
+                
+                // Center boat on finger
+                const boatWidthPercent = (boatWidth / gameRect.width) * 100;
+                boatPosition = newPos - boatWidthPercent / 2;
+
+                // We let the updateBoatPosition function handle clamping and setting the style
+                // to avoid conflicting updates. For instant touch response, we can also set it here:
+                const clampedPos = Math.max(0, Math.min(100 - boatWidthPercent, boatPosition));
+                boat.style.left = `${clampedPos}%`;
+                boat.style.transform = 'translateX(0)';
+            }, { passive: false });
+
+
+            // Start game
+            setInterval(createItem, 1500); // Create a new item every 1.5 seconds
+            gameLoop();
+        });
+    </script>
+</body>
+</html>
